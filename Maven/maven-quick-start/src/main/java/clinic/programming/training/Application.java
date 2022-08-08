@@ -7,15 +7,15 @@ import java.util.List;
 public class Application {
     
 	
-	public void greet(){
-		List<String> greeting = new ArrayList<>();
-		greeting.add("Hello");
-		
-		for (String greeting: greetings){
-			System.out.println("Greeting");
-		
-		}
-	}
+//	public void greet(){
+//		List<String> greeting = new ArrayList<>();
+//		greeting.add("Hello");
+//		
+//		for (String greeting: greetings){
+//			System.out.println("Greeting");
+//		
+//		}
+//	}
 	
     public Application() {
         System.out.println ("Inside Application");
@@ -25,6 +25,6 @@ public class Application {
     public static void main (String[] args) {
     	System.out.println ("Starting Application");
 		Application app = new Application();
-		app.greet();
+		//app.greet();
     }
 }
